@@ -20,3 +20,77 @@
   font-size: 12px;
   font-weight: 500;
 }
+
+.headerWrapper .header {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+.logoWrapper img {
+  width: 100%;
+}
+.headerWrapper .header .part2 .countryDrop {
+  height: 60px;
+  min-width: 170px;
+  text-align: left;
+  justify-content: flex-start;
+  color: #000 !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 10px 15px !important;
+}
+.headerWrapper .header .part2 .countryDrop .label {
+  font-size: 12px !important;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 16px;
+}
+.headerWrapper .header .part2 .countryDrop .name {
+  font-size: 14px !important;
+  text-transform: capitalize;
+  color: #233a95;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDrop span.ml-auto svg {
+  opacity: 0.7;
+}
+
+header .headerSearch {
+  width: 60%;
+  height: 60px;
+  background: #f3f4f7;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .headerSearch input {
+  background: transparent !important;
+  outline: none !important;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 40px;
+  border: none !important;
+  padding: 0 20px;
+}
+header .headerSearch button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px !important;
+  height: 40px;
+  width: 100px !important;
+  border-radius: 50% !important;
+  color: #000;
+}
+.headerSearch {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+header .headerSearch button svg{
+  font-size: 25px;
+}

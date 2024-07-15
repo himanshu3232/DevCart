@@ -1,3 +1,5 @@
+import LogoRow from "./LogoRow";
+
 export default function Header() {
   return (
     <>
@@ -9,6 +11,7 @@ export default function Header() {
             </p>
           </div>
         </div>
+        <LogoRow/>
       </div>
     </>
   );
