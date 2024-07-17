@@ -30,7 +30,7 @@
   width: 100%;
 }
 .headerWrapper .header .part2 .countryDrop {
-  height: 60px;
+  height: 50px;
   min-width: 170px;
   text-align: left;
   justify-content: flex-start;
@@ -59,7 +59,7 @@
 
 header .headerSearch {
   width: 60%;
-  height: 60px;
+  height: 50px;
   background: #f3f4f7;
   padding: 10px;
   position: relative;
@@ -69,17 +69,17 @@ header .headerSearch {
 header .headerSearch input {
   background: transparent !important;
   outline: none !important;
-  font-size: 18px;
+  font-size: 15px;
   color: rgba(0, 0, 0, 0.8);
   width: 100%;
-  height: 40px;
+  height: 30px;
   border: none !important;
   padding: 0 20px;
 }
 header .headerSearch button {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 4px;
+  right: 10px;
   z-index: 100;
   min-width: 40px !important;
   height: 40px;
@@ -91,6 +91,27 @@ header .headerSearch button {
   margin-left: 24px;
   margin-right: 24px;
 }
-header .headerSearch button svg{
+header .headerSearch button svg {
   font-size: 25px;
+}
+.part3 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+header .part3 .circle {
+  min-width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+header .part3 .circle svg {
+  font-size: 22px;
+}
+
+.cart .price {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
 }

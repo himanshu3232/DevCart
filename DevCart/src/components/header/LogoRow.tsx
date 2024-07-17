@@ -2,6 +2,7 @@ import img from "/img.png";
 import { Link } from "react-router-dom";
 import CountryDropdown from "./CountryDropdown";
 import SearchBar from "./SearchBar";
+import Profile from "./Profile";
 
 export default function Logo() {
   return (
@@ -17,6 +18,7 @@ export default function Logo() {
             <div className="col-sm-10 d-flex align-items-center part2">
               <CountryDropdown />
               <SearchBar/>
+              <Profile/>
             </div>
           </div>
         </div>
