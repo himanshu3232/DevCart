@@ -1,3 +1,4 @@
+import NavCollection from "../nav/NavCollection";
 import LogoRow from "./LogoRow";
 
 export default function Header() {
@@ -12,6 +13,7 @@ export default function Header() {
           </div>
         </div>
         <LogoRow/>
+        <NavCollection/>
       </div>
     </>
   );

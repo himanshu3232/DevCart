@@ -61,29 +61,33 @@ header .headerSearch {
   width: 60%;
   height: 50px;
   background: #f3f4f7;
-  padding: 10px;
+  padding: 5px;
   position: relative;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 header .headerSearch input {
   background: transparent !important;
   outline: none !important;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   width: 100%;
-  height: 30px;
+  height: 40px;
   border: none !important;
-  padding: 0 20px;
+  padding: 0 60px 0 10px;
+  margin-right: 0rem;
+}
+
+header .headerSearch input ::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.6);
 }
 header .headerSearch button {
   position: absolute;
   top: 4px;
-  right: 10px;
+  right: 0px;
   z-index: 100;
-  min-width: 40px !important;
   height: 40px;
-  width: 100px !important;
+  width: 10px !important;
   border-radius: 50% !important;
   color: #000;
 }
@@ -114,4 +118,31 @@ header .part3 .circle svg {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 700;
+  margin-right: 0.9rem;
+}
+.cart .count {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background: #ea2b0f;
+  border-radius: 50%;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+nav .categories {
+  background: #2bbef9;
+  padding: 8px 20px !important;
+  border-radius: 30px !important;
+}
+
+nav .categories * {
+  color: #fff;
+}
+nav .categories:hover {
+  background: #2bbef9 !important;
+}
+nav .categories .text{
+  font-weight: 600;
 }

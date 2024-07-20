@@ -15,6 +15,7 @@ export default function Profile() {
             <Button className="circle">
               <FaShoppingCart />
             </Button>
+            <span className="count d-flex align-items-center justify-content-center">1</span>
           </div>
         </div>
       </div>
