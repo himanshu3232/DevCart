@@ -12,8 +12,12 @@
   background-color: #233a95;
 }
 
-@media(min-width: 1300px){
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
     max-width: 1200px;
   }
 }
@@ -139,7 +143,7 @@ header .part3 .circle svg {
 
 nav .categories {
   background: #2bbef9;
-  padding: 8px 30px !important;
+  padding: 10px 15px !important;
   border-radius: 30px !important;
 }
 
@@ -149,6 +153,35 @@ nav .categories * {
 nav .categories:hover {
   background: #2bbef9 !important;
 }
-nav .categories .text{
+nav .categories .text {
   font-weight: 600;
+}
+
+nav .categories .icon1 {
+  font-size: 20px !important;
+  margin-right: 16px;
+}
+nav .categories .icon2 {
+  font-size: 15px !important;
+  margin-left: 16px;
+}
+
+nav .nav2 ul{
+  margin-bottom: 0px;
+}
+nav .nav2 ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
+nav .nav2 ul li a:hover{
+  color: rgba(15, 85, 236, 0.7);
+  background-color: #e8e0e0;
+  border: 0px solid white;
+  border-radius: 30px;
 }
