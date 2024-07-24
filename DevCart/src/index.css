@@ -12,6 +12,12 @@
   background-color: #233a95;
 }
 
+@media(min-width: 1300px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+  }
+}
+
 .headerWrapper .top-strip {
   padding: 8px 0px;
 }
@@ -24,7 +30,7 @@
 .headerWrapper .header {
   width: 100%;
   height: auto;
-  padding: 10px 0;
+  padding: 25px 0;
 }
 .logoWrapper img {
   width: 100%;
@@ -133,7 +139,7 @@ header .part3 .circle svg {
 
 nav .categories {
   background: #2bbef9;
-  padding: 8px 20px !important;
+  padding: 8px 30px !important;
   border-radius: 30px !important;
 }
 
