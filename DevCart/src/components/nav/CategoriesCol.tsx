@@ -4,7 +4,7 @@ export default function CategoriesCol() {
   return (
     <>
       <div className="col-sm-9 nav2 d-flex align-items-center">
-        <ul className="list list-inline w-100">
+        <ul style={{marginLeft: 'auto'}} className="list list-inline">
           <li className="list-inline-item">
             <Link to={'/'}>Home</Link>
           </li>

@@ -170,18 +170,18 @@ nav .nav2 ul{
   margin-bottom: 0px;
 }
 nav .nav2 ul li a{
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: none;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.7);
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  padding: 8px 10px;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
 }
 nav .nav2 ul li a:hover{
-  color: rgba(15, 85, 236, 0.7);
-  background-color: #e8e0e0;
-  border: 0px solid white;
+  color: #2bbef9;
+  background: #f0faff;
   border-radius: 30px;
 }
