@@ -185,3 +185,7 @@ nav .nav2 ul li a:hover{
   background: #f0faff;
   border-radius: 30px;
 }
+
+nav .nav2 ul li a svg{
+  font-size: 20px;
+}
